@@ -80,8 +80,11 @@ body{
 }
 /* layanan style */
     #our-service{
-        height: 100vh;
+        padding: 100px 0px;
         
+    }
+    .lia{
+        color: var(--pr-hijau);
     }
     .container-img{
         height: 70px;
@@ -91,16 +94,72 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: #048853;
         
 
     }
     .card-layanan{
-        height: 313px;
+        height:300px;
+        width: 330px;
         padding: 40px;
-        background: linear-gradient(160deg,var(--pr-hijau),#000000e4);
-        color: #fff;
+       background-color: #fff;
         border-radius: 5px;
+        margin: auto;
+        
 
     }
     
+    .card-layanan h4{
+        font-size: 24px;
+        font-weight: 500;
+        color: var(--pr-hijau);
+    }
+
+    .card-layanan p{
+        color: #000 ;
+    }
+
+
+        /* ini hover */
+
+    .card-layanan:hover{
+        height: 300px;
+        padding: 40px;
+        background: linear-gradient(160deg,var(--pr-hijau),#000000e4);
+        border-radius: 5px;
+         
+
+    }
+    
+    .card-layanan:hover h4{
+        font-size: 24px;
+        font-weight: 500;
+        color:white;
+
+    }
+
+    .card-layanan:hover p{
+        color: #fff;
+    }
+
+    .btn-masuk:hover{
+        background: var(--pr-hijau);
+        color: white;
+        border-radius: 8px;
+        transition: 0.8s ease;
+    }
+
+    .btn-daftar:hover{
+        background:white;
+        color: var(--pr-hijau);
+        border-radius: 8px;
+        transition: 0.8s ease;
+    }
+
+    .card-layanan:hover .container-img{
+        background: white;
+    }
+      /* end hover */
+
+
 /* end layanan */

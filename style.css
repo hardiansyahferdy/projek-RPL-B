@@ -78,88 +78,90 @@ body{
     color: var(--pr-hijau);
     border: none;
 }
+
+
 /* layanan style */
-    #our-service{
-        padding: 100px 0px;
-        
-    }
-    .lia{
-        color: var(--pr-hijau);
-    }
-    .container-img{
-        height: 70px;
-        width: 70px;
-        border-radius: 50%; 
-        background: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #048853;
-        
+#our-service{
+    padding: 100px 0;
+    width: 100%;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--pr-hijau);
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.card-layanan{
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    transition: all 0.1s ease-in;
+}
+.container-img{
+    height: 70px;
+    width: 70px;
+    background-color: var(--pr-hijau);
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
+}
+.card-layanan h4{
+    font-size: 24px;
+    font-weight: 500;
+    color:var(--pr-hijau);
+    transition: all 0.1s ease-in;
+}
+.card-layanan p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#000;
+    transition: all 0.1s ease-in;
+}
 
-    }
-    .card-layanan{
-        height:300px;
-        width: 330px;
-        padding: 40px;
-       background-color: #fff;
-        border-radius: 5px;
-        margin: auto;
-        
-
-    }
-    
-    .card-layanan h4{
-        font-size: 24px;
-        font-weight: 500;
-        color: var(--pr-hijau);
-    }
-
-    .card-layanan p{
-        color: #000 ;
-    }
-
-
-        /* ini hover */
-
-    .card-layanan:hover{
-        height: 300px;
-        padding: 40px;
-        background: linear-gradient(160deg,var(--pr-hijau),#000000e4);
-        border-radius: 5px;
-         
-
-    }
-    
-    .card-layanan:hover h4{
-        font-size: 24px;
-        font-weight: 500;
-        color:white;
-
-    }
-
-    .card-layanan:hover p{
-        color: #fff;
-    }
-
-    .btn-masuk:hover{
-        background: var(--pr-hijau);
-        color: white;
-        border-radius: 8px;
-        transition: 0.8s ease;
-    }
-
-    .btn-daftar:hover{
-        background:white;
-        color: var(--pr-hijau);
-        border-radius: 8px;
-        transition: 0.8s ease;
-    }
-
-    .card-layanan:hover .container-img{
-        background: white;
-    }
-      /* end hover */
-
-
+/* hover card */
+.card-layanan:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover .container-img{
+    background-color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover h4{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover p{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+/* end hover card */
 /* end layanan */
+
+/* style temukan rumah  */
+    #temukan-rumah{
+        height: 100vh;
+        background-image: url(image/interior-green.png);
+        background-size: cover;
+        background-repeat: no-repeat;    
+        background-position: center;
+    }
+
+    .tmk-rumah{
+        color:#fff ;
+        font-weight: 700;
+        margin-top: 100px;
+        font-size: 38px;
+ 
+    }
+    .sub-tmk-rmh{
+        color: #fff;
+        font-weight: 400;   
+
+        
+    }
+/* end  style temukan rumah  */

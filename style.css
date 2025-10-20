@@ -161,7 +161,32 @@ p{
     .sub-tmk-rmh{
         color: #fff;
         font-weight: 400;   
+    }
 
-        
+    .btn-tab{
+        height: 42px;
+        color:#000;
+        background-color: rgb(255,255,255,0.5);
+        border:none;
+        padding: 10px 20px 10px 20px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .jual{
+        border-radius: 10px 0 0 0 ;
+    }
+    .property{
+        border-radius: 0 10px 0 0 ;
+    }
+
+     .btn-tab.active{
+        height: 42px;
+        color: #048853;
+        background-color: white;
+        border:none;
+        padding: 10px 20px 10px 20px;
+        font-size: 18px;
+        font-weight: 400;
     }
 /* end  style temukan rumah  */

@@ -86,8 +86,8 @@ body{
     width: 100%;
 }
 h1{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 600;
     color: var(--pr-hijau);
 }
 p{
@@ -185,7 +185,7 @@ p{
      .btn-tab.active{
         height: 42px;
         color: #048853;
-        background-color: white;
+        background-color:rgba(255,255,255, 0.8);
         border:none;
         padding: 10px 20px 10px 20px;
         font-size: 18px;
@@ -219,6 +219,39 @@ p{
         font-size: 18px;
         font-weight: 400;
         border-radius: 10px;
+        width: 200px;
+        border-right: solid 1px #fff;
     }
 
+    .nav-tabs{
+        border: none;
+    }
+    .form-control{
+        border: none;
+        background-color: rgba(255,255,255, 0.200);
+    }
+
+    .form-control::placeholder{
+        color: #048853;
+    }
+
+    .form-control:focus{
+        box-shadow: 1px 1px 10px 1px var(--pr-hijau);
+        color: #048853;
+    }
+
+    /* style rekomendasi rumah */
+#rekomendasi{
+    height: 100vh;
+}
+.card-rek{
+    height: 489px;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.card-gbr{
+    height: 280px;
+}
+/* end style rekomendasi rumah */
 /* end  style temukan rumah  */

@@ -241,17 +241,44 @@ p{
     }
 
     /* style rekomendasi rumah */
-#rekomendasi{
-    height: 100vh;
-}
+
+    .rec{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+
 .card-rek{
     height: 489px;
-    width: 380px;
+    width: 350px;
     background-color: #fff;
     border-radius: 5px;
+    margin-top: 20px;
+}
+.card-rek:hover{
+    background-color: #048853;
+    transition: 0.5s ease;
 }
 .card-gbr{
     height: 280px;
+}
+.idr{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.jl{
+    font-size: 14px;
+}
+
+.fasilitas{
+    height: 67px;
+}
+
+.sub-fasi{
+    font-size: 12px;
+    font-weight: 400w;
 }
 /* end style rekomendasi rumah */
 /* end  style temukan rumah  */

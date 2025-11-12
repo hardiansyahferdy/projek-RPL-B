@@ -239,46 +239,46 @@ p{
         box-shadow: 1px 1px 10px 1px var(--pr-hijau);
         color: #048853;
     }
-
-    /* style rekomendasi rumah */
-
-    .rec{
-        margin-top: 100px;
-        margin-bottom: 50px;
-        
-    }
-
-.card-rek{
-    height: 489px;
-    width: 350px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-.card-rek:hover{
-    background-color: #048853;
-    transition: 0.5s ease;
-}
-.card-gbr{
-    height: 280px;
-}
-.idr{
-    font-weight: 600;
-    font-size: 24px;
-    color: #000;
-}
-
-.jl{
-    font-size: 14px;
-}
-
-.fasilitas{
-    height: 67px;
-}
-
-.sub-fasi{
-    font-size: 12px;
-    font-weight: 400w;
-}
-/* end style rekomendasi rumah */
 /* end  style temukan rumah  */
+
+/* style rekomendasi rumah */
+.card{
+    height: 460px;
+    border: none;
+}
+.card-body h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: .8rem;
+}
+.card-body p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-fasilitas{
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+.card-fasilitas p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card:hover{
+    background:linear-gradient(160deg, var(--pr-hijau), #05b46e, #000);
+
+}
+.card:hover .card-body h4{
+    color: #fff;
+}
+.card:hover .card-body p{
+    color: #fff;
+}
+.card:hover .card-fasilitas{
+    background-color: #fff;
+}
+/* end style rekomendasi rumah */   
